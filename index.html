@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="contenido" align="center">
-    <form action="">
+    <form>
       <h1>Tu peso en otros Planetas!</h1>
       <p>
         <label for="">Nombre: </label>
@@ -18,8 +18,10 @@
         <label for="">Masa: </label>
         <input type="text" id="masa" placeholder="Ingresa tu masa" required>
       </p>
-      <button id="calcula">Calcular</button>
+      <button id="calcula" type="submit" onclick="calcula(); return ''" value="send">Calcular</button>
+      <div id="print"></div>
     </form>
   </div>
+  <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
