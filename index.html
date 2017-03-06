@@ -6,10 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tu peso en otros planetas</title>
 </head>
-<body>
+<body background = "assets\images\descargas.jpg">
   <div id="contenido" align="center">
-    <form>
-      <h1>Tu peso en otros Planetas!</h1>
+    <form id="form">
+      <font color = white>
+        <h1>Tu peso en otros Planetas!</h1>
+
       <p>
         <label for="">Nombre: </label>
         <input type="text" id="name" placeholder="Ingresa tu nombre" required>
@@ -18,8 +20,9 @@
         <label for="">Masa: </label>
         <input type="text" id="masa" placeholder="Ingresa tu masa" required>
       </p>
-      <button id="calcula" type="submit" onclick="calcula(); return ''" value="send">Calcular</button>
+      <button id="calcula" type="submit" value="send">Calcular</button>
       <div id="print"></div>
+        </font>
     </form>
   </div>
   <script type="text/javascript" src="assets/js/app.js"></script>
